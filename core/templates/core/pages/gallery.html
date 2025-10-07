@@ -1,0 +1,120 @@
+{% extends 'core/base.html' %}
+
+{% block title %}Galería - La Virgotera Cafe{% endblock %}
+
+{% block content %}
+<!-- Banner Section -->
+<section class="py-5 bg-dark text-white">
+    <div class="container text-center">
+        <h1 class="brand-font display-4 mb-3">Productos</h1>
+    </div>
+</section>
+
+<!-- Galería de Imágenes -->
+<section class="py-5">
+    <div class="container">
+        <div class="row g-4" id="gallery">
+            
+            <!-- Cafes -->
+            <div class="col-lg-4 col-md-6 gallery-item" data-category="Cafe">
+                <div class="card h-100 shadow-sm">
+                    <img src="https://s3.ppllstatics.com/diariovasco/www/multimedia/2024/11/13/espresso-RrCckvN0LEAFk54KAQQPcXM-1200x840@Diario%20Vasco.jpg" 
+                         class="card-img-top" style="height: 250px; object-fit: cover;" alt="Cafe expreso">
+                    <div class="card-body">
+                        <h5 class="card-title brand-font">Café expreso</h5>
+                        <p class="card-text">intensa y aromática, creada al hacer pasar agua caliente a alta presión a través de granos de café finamente molidos.</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-lg-4 col-md-6 gallery-item" data-category="Cafe">
+                <div class="card h-100 shadow-sm">
+                    <img src="https://coffee-dictionary.com/wp-content/uploads/cafe-latte-740x555.jpg" 
+                         class="card-img-top" style="height: 250px; object-fit: cover;" alt="Cafe latte">
+                    <div class="card-body">
+                        <h5 class="card-title brand-font">Café latte</h5>
+                        <p class="card-text">bebida preparada con uno o dos shots de café espresso, leche al vapor y una fina capa de espuma de leche encima.</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-lg-4 col-md-6 gallery-item" data-category="Cafe">
+                <div class="card h-100 shadow-sm">
+                    <img src="https://revive.arkorganicsug.com/wp-content/uploads/2024/10/CafeMocha-hero.61028a28.jpg" 
+                         class="card-img-top" style="height: 250px; object-fit: cover;" alt="Prensa francesa">
+                    <div class="card-body">
+                        <h5 class="card-title brand-font">Café mocca</h5>
+                        <p class="card-text">una bebida a base de espresso, leche vaporizada y chocolate.</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-lg-4 col-md-6 gallery-item" data-category="Cafe">
+                <div class="card h-100 shadow-sm">
+                    <img src="https://storage.googleapis.com/incapto-production-web-storage/wp-content/uploads/2020/10/Caf%C3%A9-Irland%C3%A9s-Receta.jpg" 
+                         class="card-img-top" style="height: 250px; object-fit: cover;" alt="Ambiente cafetería">
+                    <div class="card-body">
+                        <h5 class="card-title brand-font">Café irlandes</h5>
+                        <p class="card-text">una bebida caliente que se prepara con café caliente, whisky irlandés, azúcar y una capa de crema batida.</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-lg-4 col-md-6 gallery-item" data-category="Cafe">
+                <div class="card h-100 shadow-sm">
+                    <img src="https://apasionadosporelcafe.com/wp-content/uploads/2017/06/apasionados-espresso-caribe-cover.png" 
+                         class="card-img-top" style="height: 250px; object-fit: cover;" alt="Barista preparando café">
+                    <div class="card-body">
+                        <h5 class="card-title brand-font">Café caribeño</h5>
+                        <p class="card-text">bebida de café caliente con ron y nata montada.</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-lg-4 col-md-6 gallery-item" data-category="Cafe">
+                <div class="card h-100 shadow-sm">
+                    <img src="https://www.cafes-santacristina.com/sites/default/files/2023-09/capuchino.jpg" 
+                         class="card-img-top" style="height: 250px; object-fit: cover;" alt="Granos de café">
+                    <div class="card-body">
+                        <h5 class="card-title brand-font">Café cappuccino</h5>
+                        <p class="card-text">trago de espresso, leche vaporizada y una espuma de leche densa.</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-lg-4 col-md-6 gallery-item" data-category="Cafe">
+                <div class="card h-100 shadow-sm">
+                    <img src="https://www.pequerecetas.com/wp-content/uploads/2015/10/como-hacer-croissant-integrales-rellenos-de-chocolate-receta.jpeg"
+                         class="card-img-top" style="height: 250px; object-fit: cover;" alt="Espresso servido">
+                    <div class="card-body">
+                        <h5 class="card-title brand-font">Croissant con chocolate</h5>
+                        <p class="card-text">La base de todas las grandes bebidas de café, intenso y balanceado.</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-lg-4 col-md-6 gallery-item" data-category="Cafe">
+                <div class="card h-100 shadow-sm">
+                    <img src="https://images.unsplash.com/photo-1558961363-fa8fdf82db35?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" 
+                         class="card-img-top" style="height: 250px; object-fit: cover;" alt="Máquina de café">
+                    <div class="card-body">
+                        <h5 class="card-title brand-font">Galletas con chispas de chocolate</h5>
+                        <p class="card-text">un dulce horneado que se distingue por su sabor a mantequilla y sus chispas de chocolate.</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-lg-4 col-md-6 gallery-item" data-category="Cafe">
+                <div class="card h-100 shadow-sm">
+                    <img src="https://www.melskitchencafe.com/wp-content/uploads/2013/02/featured-image.jpg" 
+                         class="card-img-top" style="height: 250px; object-fit: cover;" alt="Preparación del café">
+                    <div class="card-body">
+                        <h5 class="card-title brand-font">Frosted Brownies</h5>
+                        <p class="card-text">una barra de postre horneada con chocolate.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+{% endblock %}

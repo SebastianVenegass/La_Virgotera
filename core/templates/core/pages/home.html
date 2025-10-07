@@ -1,0 +1,76 @@
+{% extends 'core/base.html' %}
+
+{% block title %}Inicio - La Virgotera Café{% endblock %}
+
+{% block content %}
+<!-- Hero Section -->
+<section class="hero-section position-relative">
+    <div class="container-fluid p-0">
+        <div class="row g-0">
+            <div class="col-12 position-relative">
+                <img src="https://images.unsplash.com/photo-1509042239860-f550ce710b93?ixlib=rb-4.0.3&auto=format&fit=crop&w=1920&q=80" 
+                     class="img-fluid w-100" style="height: 70vh; object-fit: cover;" alt="Café latte">
+                <div class="position-absolute top-0 start-0 w-100 h-100 d-flex align-items-center" 
+                     style="background: rgba(0,0,0,0.4);">
+                    <div class="container text-white text-center">
+                        <h1 class="display-3 brand-font mb-4">Bienvenidos a La Virgotera Café</h1>
+                        <p class="lead mb-4">El mejor café de especialidad acompañado de repostería artesanal</p>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Promociones del Día -->
+<section id="promociones" class="py-5 bg-light">
+  <div class="container">
+    <h2 class="text-center brand-font mb-5">Promociones del Día</h2>
+
+    <!-- Promo 1 -->
+    <div class="row align-items-center mb-4">
+      <div class="col-md-6">
+        <img src="https://media-cdn.tripadvisor.com/media/photo-s/1a/e2/04/28/el-duo-perfecto-2x1-en.jpg" 
+             class="img-fluid rounded w-75" alt="2x1 en cappuccino">
+      </div>
+      <div class="col-md-6">
+        <h3 class="brand-font text-primary">2x1 en Cappuccino</h3>
+        <p class="lead">Todos los martes y miércoles. Válido para cappuccinos medianos.</p>
+        <h4 class="text-success">¡Disfruta con un amigo!</h4>
+      </div>
+    </div>
+
+    <!-- Promo 2 -->
+    <div class="row align-items-center mb-4">
+      <div class="col-md-6">
+        <img src="https://media-cdn.tripadvisor.com/media/photo-s/18/e0/7d/ac/desayuno-u-once-francesa.jpg" 
+             class="img-fluid rounded w-75" alt="Combo desayuno">
+      </div>
+      <div class="col-md-6">
+        <h3 class="brand-font text-primary">Combo Desayuno</h3>
+        <p class="lead">Café + croissant recién horneado + jugo natural</p>
+        <h4 class="text-success">Solo $5.990</h4>
+      </div>
+    </div>
+
+    <!-- Promo 3 -->
+    <div class="row align-items-center mb-4">
+      <div class="col-md-5">
+        <img src="https://previews.123rf.com/images/bookybuggy/bookybuggy1607/bookybuggy160700078/60179226-cup-of-the-latte-art-coffee-with-spoon-and-plate-on-the-brown-bark-beautiful-texture-background-with.jpg" 
+             class="img-fluid rounded" alt="Latte con pastel">
+      </div>
+      <div class="col-md-6">
+        <h3 class="brand-font text-primary">Latte + Pastel de Chocolate</h3>
+        <p class="lead">Un latte cremoso acompañado de pastel casero de chocolate.</p>
+        <h4 class="text-success">Solo $6.990</h4>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+
+
+
+{% endblock %}

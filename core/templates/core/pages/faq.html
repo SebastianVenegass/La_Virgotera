@@ -1,0 +1,72 @@
+{% extends 'core/base.html' %}
+
+{% block title %}Preguntas Frecuentes - La Virgotería Cafetería{% endblock %}
+
+{% block content %}
+<!-- Banner Section -->
+<section class="py-5" style="background-color:#212529; color: #f8f9fa;">
+    <div class="container text-center">
+        <h1 class="brand-font display-4 mb-3">Preguntas Frecuentes</h1>
+        <p class="lead">Encuentra respuestas a las dudas más comunes sobre nuestra cafetería</p>
+    </div>
+</section>
+
+<!-- FAQ Section -->
+<section class="py-5">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-lg-8">
+                <div class="accordion" id="faqAccordion">
+                    
+                    <!-- Pregunta 1 -->
+<div class="card mb-4 shadow-sm border-0 rounded-3">
+    <div class="card-body">
+        <h5 class="card-title d-flex align-items-center">
+            <i class="fas fa-clock me-2 text-primary"></i>
+            ¿Cuáles son sus horarios de atención?
+        </h5>
+        <p class="card-text mb-1"><strong>Lunes a Viernes:</strong> 10:00 AM - 10:00 PM</p>
+        <p class="card-text mb-1"><strong>Sábados:</strong> 11:00 AM - 6:00 PM</p>
+        <p class="card-text mb-0"><strong>Domingos:</strong> Cerrado</p>
+    </div>
+</div>
+
+<!-- Pregunta 2 -->
+<div class="card mb-4 shadow-sm border-0 rounded-3">
+    <div class="card-body">
+        <h5 class="card-title d-flex align-items-center">
+            <i class="fas fa-credit-card me-2 text-primary"></i>
+            ¿Qué métodos de pago aceptan?
+        </h5>
+        <ul class="card-text mb-0">
+            <li>Efectivo</li>
+            <li>Tarjetas de débito y crédito</li>
+            <li>Edenred</li>
+            <li>Pago con QR</li>
+        </ul>
+    </div>
+</div>
+
+
+
+                <!-- Google Maps Section -->
+                <div class="mt-5 text-center">
+                    <h4 class="brand-font text-primary mb-3">Encuéntranos en el mapa</h4>
+                    <div class="ratio ratio-16x9 shadow rounded">
+                        <iframe 
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3330.35232084109!2d-70.64826768480155!3d-33.45693978077479!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9662c59b6bf2f3d5%3A0x2b9f2c46d8cf1659!2sSantiago%20Centro!5e0!3m2!1ses!2scl!4v1694791782396!5m2!1ses!2scl" 
+                            width="600" 
+                            height="450" 
+                            style="border:0;" 
+                            allowfullscreen="" 
+                            loading="lazy" 
+                            referrerpolicy="no-referrer-when-downgrade">
+                        </iframe>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</section>
+{% endblock %}
